@@ -1,0 +1,35 @@
+.box{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    /*căn giữa text ở các khối*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    /*position:relative;*/
+    background-color: #f8a3ef;
+    width: 400px;
+    margin: 50px;
+}
+
+.box1{
+    background-color: #007762;
+}
+
+.box2{
+    background-color:#c6000a;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+
+.box3{
+    background-color: rgb(23, 156, 204);
+}
+
+h1{
+    background-color: #f87784;
+}

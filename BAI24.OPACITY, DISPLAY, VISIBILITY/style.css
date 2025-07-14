@@ -1,0 +1,20 @@
+body{
+    background-image: url(./img/premium_vector-1719816838907-8b4304af21e6.avif);
+}
+
+h2{
+    opacity: 0%;
+    /*không nhìn thấy, vẫn chiếm ko gian, vẫn tương tác được*/
+    background-color:blanchedalmond;
+
+    /*display: none*/
+    /*không nhìn thấy, không chiếm không gian, không tương tác được*/
+
+    /*visibility: hidden*/
+    /*không nhìn thấy, vẫn chiếm không gian, không tương tác được*/
+}
+span{
+    opacity: 1;
+    display: block;
+    visibility:visible;
+}

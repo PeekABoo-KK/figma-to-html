@@ -1,0 +1,38 @@
+#line2:hover{
+    color: red;
+    font-size: 30px;
+}
+
+.di_chuot:hoever{
+    color: pink;
+    font-size: 50px;
+}
+
+.di_chuot:active{
+    color: red;
+    font-size: 30px;
+}
+
+h2:target{
+    color:blueviolet;
+}
+
+.click_me:link{
+    color:chocolate;
+}
+
+.click_me:visited{
+    color:green;
+}
+
+.div_elm:empty{
+    width:200px;
+    height:200ps;
+    background-color: blue;
+}
+
+.div_elm:{
+    width:200px;
+    height:200ps;
+    background-color: yellow;
+}

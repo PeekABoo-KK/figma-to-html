@@ -1,0 +1,19 @@
+[title="tuhoc.cc"]{
+    color: red;
+}
+
+[title*="tuhoc.cc"]{
+    color: green;
+}
+
+[title|="pic"]{
+    color:salmon;
+}
+
+[title^="pic"]{
+    color:rgb(88, 143, 192)
+}
+
+[title$="pic"]{
+    color:chocolate;
+}

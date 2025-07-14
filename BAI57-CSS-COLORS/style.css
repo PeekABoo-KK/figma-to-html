@@ -1,0 +1,15 @@
+h1{
+    color:rgb(213, 57, 57);
+
+    /*kênh rgba*/
+    color: rgba(255, 0, 0, 0.5);
+    background-color: blueviolet;
+
+    /*hệ thập lục phân*/
+    color: #ff00ff50;
+    /*tên màu(ít dùng)*/
+    color: lightpink;
+    /*currentcolor*/
+    color: #00ff99;
+    color: currentColor;
+}

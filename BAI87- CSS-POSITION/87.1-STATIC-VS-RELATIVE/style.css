@@ -1,0 +1,28 @@
+.box{
+    width: 100px;
+    height: 100px;
+    color: brown;
+    /*căn giữa text ở các khối*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: pink;
+}
+
+.box2{
+    background-color:#c6e14a;
+    position:relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+.box3{
+    background-color: rgb(251, 150, 42);
+}
+
+h1{
+    background-color: violet;
+}

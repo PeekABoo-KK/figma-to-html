@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: url(../tuhoc-html-css-main/tuhoc-html-css-main/14.anh-avar-bai79/ava.png) center/cover;
+    clip-path: circle(80px);
+    clip-path: circle(50% at 0 50%);
+    /*
+    Tính toán bán kính của hình tròn:width: 
+    radius = (50% * max(width, height))
+    */
+    clip-path: inset(20px round 20px);
+    clip-path: inset(20px 50px);
+    clip-path: inset(20px 50px 80px);
+    clip-path: inset(20px 50px 30px 40px);
+}

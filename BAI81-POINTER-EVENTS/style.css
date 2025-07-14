@@ -1,0 +1,14 @@
+.anh_demo{
+    max-width: 300px;
+    pointer-events: none/ auto;
+}
+
+.btn_home{
+    display: inline-block;
+    padding: 30px 40px;
+    color:aliceblue;
+    background-color: rgb(63, 156, 63);
+    font-size: 25px;
+    text-decoration: none;
+    pointer-events: none/auto;
+}

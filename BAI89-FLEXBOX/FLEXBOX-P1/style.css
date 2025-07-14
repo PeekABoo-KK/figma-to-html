@@ -1,0 +1,14 @@
+*{
+    font-size: 1.3rem;
+}
+
+.container{
+    display:flex;
+    display:inline-flex;
+    background-color: cyan;
+    gap:40px;
+}
+
+.box{
+    background-color: pink;
+}

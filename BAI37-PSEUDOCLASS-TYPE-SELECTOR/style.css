@@ -1,0 +1,15 @@
+p:first-of-type{
+    color:chartreuse
+}
+
+h2:last-of-type{
+    color:crimson;
+}
+
+p:nth-of-type(2){
+    color:darkcyan;
+}
+
+p:only-of-type{
+    color:darkmagenta;
+}

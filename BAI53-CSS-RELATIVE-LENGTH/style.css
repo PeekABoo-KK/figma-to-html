@@ -1,0 +1,27 @@
+.body{
+    background-color: brown;
+    height: 400px;
+}
+
+.box{
+    background-color: pink;
+    width:60%;
+    height: 50%;
+}
+.box_child{
+    background-color: yellow;
+    width: 50%;
+}
+
+
+.parent{
+    width: 80vw;
+    height: 80vw;
+    background-color: yellow;
+}
+
+.child{
+    width: 50vw;
+    height: 50vw;
+    background-color: violet;
+}

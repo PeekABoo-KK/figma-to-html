@@ -1,0 +1,22 @@
+.container{
+    height: 200px;
+    display: flex;
+    background-color: cyan;
+}
+
+.box{
+    background-color: pink;
+    border: 1px solid red;
+}
+
+.box2, .box4{
+    align-self: flex-end;
+} 
+
+.box1, .box3{
+    flex-grow: 1;
+}
+
+.box2{
+    flex-grow: 2;
+}

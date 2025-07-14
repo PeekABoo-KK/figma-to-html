@@ -1,0 +1,16 @@
+body{
+    background: url(./bg/photo-1747738305509-6b21c67ec6f6.avif);
+    background-size: cover;
+}
+
+.box{
+    height: 100px;
+    background-color: rgba(46, 43, 169, 0.751);
+}
+    @supports(backdrop-filter: blur(5px) contrast(50%)) or (-webkit-backdrop-filter: blur(5px) contrast(50%)){
+        .box{
+            background-color: rgba(46, 43, 169, 0.751);
+            backdrop-filter: blur(5px) contrast(50%);
+            -webkit-backdrop-filter: blur(5px) contrast(50%);
+        }
+    }

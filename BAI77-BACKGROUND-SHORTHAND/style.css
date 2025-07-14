@@ -1,0 +1,8 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 50px dotted red;
+    padding: 50px;
+    /*background: bg-color   bg-image   position/bg-size    bg-repeat   bg-origin    bg-clip    bg-attachment   initial|inherit;*/
+    background: red url() center /contain no-repeat padding-box border-box fixed;
+}

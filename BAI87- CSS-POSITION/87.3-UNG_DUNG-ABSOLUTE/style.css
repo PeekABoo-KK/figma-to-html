@@ -1,0 +1,18 @@
+.noti{
+    margin: 5rem;
+    font-size: 7rem;
+    color:blueviolet;
+    position:relative;
+}
+
+.mes_number{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 50px;
+    position:absolute;
+    left: 85px;
+    top: -2px;
+}

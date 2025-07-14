@@ -1,0 +1,37 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}   
+/*
+.box1{
+    margin: 50px;
+}
+
+.box2{
+    margin-top: 70px;
+} */
+
+/* .item{
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.item1{
+    display: block;
+    margin-right: 10px;
+}
+
+.item 2{
+    margin-left: 20px;
+} */
+
+/*Cách 1 để xử lý*/
+.box1{
+    margin-bottom: 70px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,8 @@
+strong{
+    padding:30px;
+    background-repeat: blue;
+    margin: 30px;
+    display: inline-block
+    /*display: inline*/
+    /*display: block*/
+}

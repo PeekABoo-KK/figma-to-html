@@ -1,0 +1,32 @@
+.container{
+    display:flex;
+}
+
+.box{
+    width: 100%;
+    flex-basis: 200px;
+    /* max-width: 100px; */
+    /*
+    1. Nếu max-width < flex-basis -> max-width
+    2. Ngược lại
+    */
+    min-width: 200px;
+}
+
+.box1{
+    background-color: cyan;
+}
+
+.box2{
+    background-color: red;
+    order: 1;
+}
+
+.box3{
+    background-color: pink;
+    order: 2;
+}
+
+.box4{
+    background-color: yellow;
+}

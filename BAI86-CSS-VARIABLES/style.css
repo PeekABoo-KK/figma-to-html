@@ -1,0 +1,49 @@
+/* 1.Khai báo root hoặc html sẽ áp dụng cho toàn trang */
+:root{
+    --box-height: 100px;
+    --box-color: green;
+}
+
+.box1{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+
+.box2{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+
+.box3{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+
+
+/* 2.Khai báo trong ptu nào thì sẽ áp dụng được cho 
+ptu đó và các cấp thấp hơn(con của nó) */
+.detail{
+    --p_font-size: 30px;
+    font-size: var(--p_font-size);
+}
+
+.detail span{
+    font-size: var(--p_font-size);
+}
+
+/*3.Có thể bị ghi đè theo thứ tự ưu tiên*/
+.box3{
+    height: 200px;
+}
+
+/*4.Giá trị backup của biến*/
+content{
+    --background-box: red;
+}
+.box4{
+    height: 100px;
+    background-color: var(--background-box, purple); /*Backup for failback*/
+}

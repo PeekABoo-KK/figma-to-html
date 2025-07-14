@@ -1,0 +1,8 @@
+h1{
+    color: red;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; /* Prevent text selection */
+} /*vao web autoprefixer css*/
+/*vao web caniuse để check thuộc tính có cần prefix hay ko*/

@@ -1,0 +1,25 @@
+p:first-child{
+    color:red;
+    font-size: 30px;
+}
+
+p:last-child{
+    color:blue;
+    font-size: 25px;
+}
+
+p:nth-child(2){
+    color:green;
+}
+
+p:nth-child(even){
+    color:orange;
+}
+
+p:nth-child(3n+1){
+    color: purple;
+}
+
+p:nth-last-child(3){
+    color: gold;
+}
